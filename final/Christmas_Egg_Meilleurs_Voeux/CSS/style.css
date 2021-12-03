@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(180, 66, 66);
+}
+
+.voeux {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+
+fieldset {
+    background-color: rgb(180, 66, 66);
+    max-width: 40%;
+    padding: 16px;
+    height: 60%;
+    margin-left: 10px;
+    border: 0;
+}
+
+.inputUser {
+    height: 50px;
+    width: 300px;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputUserText {
+    height: 20rem;
+    width: 45rem;
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.view {
+    background-image: url("../IMG/carte.jpg");
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 40rem;
+}
+
+#nom1 {
+    margin-left: 80px;
+    margin-top: 65px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#prenom {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mess {
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 95%;
+    margin: auto;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #ffffff , #a6a6a6);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-top-left-radius: 10px; 
+}
+
+.title{
+    font-size: 3.5rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.social img{
+    max-width: 30px;
+    margin: 5px;
+    opacity: 50%;
+    transition: opacity;
+    transition-duration: 0.5s;
+}
+
+.social img:hover{
+    opacity: 100%;
+}
+
+.imgSea{
+    background-image: url("/img/mer-houleuse-dunkerque.jpeg");
+    width: 100%;
+    height: 375px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100%;
+    background-position: left;
+}
+
+.navigate{
+    border: 3px #a6a6a6 dot-dash;
+    background: linear-gradient(to left, #ffffff , #a6a6a6);
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.result{
+    min-height: 15rem;
+}
+
+.navigate ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navigate li{
+    border-radius: 5px;
+    border-left: 2px #808080 solid;
+    border-bottom: 2px #808080 solid;
+    padding: 2rem;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+}
+
+.navigate li:hover{
+    font-weight: bold;
+}
+
+.navigate li:first-child{
+    border-left: none !important;
+}
+
+navigate li:hover{
+    font-weight: bold;
+}
+
+.search img{
+    max-width: 20px;
+    margin: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 33%;
+    background-color: grey;
+    border-radius: 50px;
+    margin: 15px;
+    margin: auto;
+    margin-top: 1.5rem !important;
+}
+
+.search button{
+    background-color: transparent;
+    border: 1px black solid;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search input{
+    color: #d9d9d9;
+    width: 80%;
+    margin-right: 5%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+
+.search input::placeholder{
+    color: #d9d9d9;
+    opacity: 40%;
+}
